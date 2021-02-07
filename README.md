@@ -1,3 +1,3 @@
-# Voting application asignment
+# Voting application assignment
 
-Initial setup commits
+Designed the layout with the static structure.
