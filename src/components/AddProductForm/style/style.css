@@ -1,0 +1,118 @@
+/* Product listing CSS */
+
+.vote-outer .product-listing {
+  list-style: none;
+  margin: 0;
+  padding: 30px 15px 0;
+  min-height: calc(100vh - 205px);
+  max-height: calc(100vh - 205px);
+  overflow: auto;
+}
+.vote-outer .product-listing li {
+  margin: 0 0 15px;
+}
+.vote-outer .product-inner {
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.02);
+}
+.vote-outer .product-inner .product-thumb {
+  width: 100px;
+  height: 100px;
+  background: #c7c7c7;
+}
+.vote-outer .product-inner .product-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.vote-outer .product-inner .product-content {
+  padding-left: 35px;
+}
+.vote-outer .product-inner .product-vote {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.vote-outer .product-inner .product-vote .product-position {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #007bff transparent;
+}
+.vote-outer .product-inner .product-vote .product-position-number {
+  display: inline-block;
+  margin-left: 15px;
+}
+.vote-outer .product-inner .product-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.vote-outer .product-inner .product-meta {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.vote-outer .product-inner .product-categories {
+  font-weight: 700;
+}
+.vote-outer .product-inner .product-year {
+  font-weight: 300;
+}
+
+.add-product-form .form-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.add-product-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -7px;
+}
+.add-product-form .form-row .form-column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 7px;
+  margin-bottom: 15px;
+}
+.add-product-form input,
+.add-product-form select {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  padding: 5px 10px;
+  display: block;
+}
+.add-product-form .bt-wrap {
+  padding-top: 15px;
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 7px;
+}
+.add-product-form .bt-wrap button {
+  min-width: 150px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 7px 15px;
+  background: #007bff;
+  color: #ffffff;
+  box-shadow: none;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+}
