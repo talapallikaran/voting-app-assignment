@@ -1,2 +1,3 @@
-# voting-app-assignment
-Voting web application assignment
+# Voting application asignment
+
+Initial setup commits
