@@ -4,8 +4,8 @@
   list-style: none;
   margin: 0;
   padding: 30px 15px 0;
-  min-height: calc(100vh - 205px);
-  max-height: calc(100vh - 205px);
+  min-height: calc(100vh - 235px);
+  max-height: calc(100vh - 235px);
   overflow: auto;
 }
 .vote-outer .product-listing li {
@@ -115,4 +115,12 @@
   border-radius: 5px;
   border: 1px solid #007bff;
   cursor: pointer;
+}
+
+.no-records{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px;
+  display: block;
 }
